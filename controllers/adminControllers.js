@@ -17,4 +17,20 @@ module.exports = {
       return responseHandler(res);
     }
   },
+  update: (req, res) => {
+    console.log(req);
+    try {
+      return responseHandler(res);
+    } catch (error) {
+      return responseHandler(res);
+    }
+  },
+  Delete: (req, res) => {
+    console.log(req);
+    try {
+      return responseHandler(res);
+    } catch (error) {
+      return responseHandler(res);
+    }
+  },
 };
